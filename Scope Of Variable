@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1 style="color: red">Press The Button!</h1>
+        <button onclick="abc()" style="font-weight: 900 ;color:rgb(255, 0, 0); background-color: rgb(0, 0, 255); width: 200px; height: 200px;">Press Me!</button>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <script>
+            var a = 5;
+            function abc() {
+                var b = 123456789;
+            document.getElementById("demo").innerHTML= a * b;
+            }
+            document.getElementById("demo1").innerHTML = a; 
+            document.getElementById("demo2").innerHTML = b;
+        </script>
+    </body>
+</html>
