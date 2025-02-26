@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <h1 style="color: red">Press The Button</h1>
+        <button onclick="abc(4456)" style="font-weight: 900 ;color:blue; background-color: palevioletred; width: 200px; height: 200px;">:)</button>
+        <script>
+            function abc(x,y){
+            if (y==undefined) {y=5;}
+            document.write(x*y);}
+        </script>
+    </body>
+</html>
