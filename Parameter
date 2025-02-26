@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <h1 style="color: red">YAY!</h1>
+        <p id="demo"></p>
+        <p id="demo2"></p>
+        <script>
+            function abc(x,y){
+            if (y==undefined) {y=5;}
+            
+            return x*y;}
+             document.getElementById("demo").innerHTML = abc(55666);
+
+             function ab(w, e) {
+                    if (e == undefined) { e = 8; }
+
+                    return w / e;
+                }
+                document.getElementById("demo2").innerHTML = ab(96);
+        </script>
+    </body>
+</html>
